@@ -57,8 +57,9 @@ shinyServer(function(input, output, session) {
     })    
   })
 
-  output$table <- renderTable(expr = {
-    TreeStruct()%>%select(-NEWCOL)
+  output$table <- rhandsontable::renderRHandsontable({
+    rhandsontable::rhandsontable(TreeStruct()%>%select(-NEWCOL))
   })
+  
   
 })
