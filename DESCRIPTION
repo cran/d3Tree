@@ -1,6 +1,6 @@
 Package: d3Tree
-Version: 0.2.2
-Date: 2020-12-10
+Version: 0.3.0
+Date: 2024-01-23
 Title: Create Interactive Collapsible Trees with the JavaScript 'D3'
         Library
 Authors@R: c(person("Jonathan", "Sidi", email = "yonicd@gmail.com", role = c("aut", "cre")),
@@ -11,19 +11,19 @@ Description: Create and customize interactive collapsible 'D3' trees using the '
     directly from the R console, from 'RStudio', in Shiny apps and R Markdown documents.
     When in Shiny the tree layout is observed by the server and can be used as a reactive filter
     of structured data.
-Depends: R (>= 2.3.0)
-Imports: magrittr, stringr, htmlwidgets, plyr, dplyr
-Suggests: shiny, rmarkdown
-License: GPL-2 | GPL-3
+Depends: R (>= 4.0.0)
+Imports: htmlwidgets, tibble, tidyselect, dplyr, utils
+Suggests: rmarkdown
+License: MIT + file LICENSE
 URL: https://github.com/yonicd/d3Tree
 BugReports: https://github.com/yonicd/d3Tree/issues
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2020-12-10 13:22:33 UTC; yonis
+Packaged: 2024-01-29 19:44:47 UTC; yonis
 Author: Jonathan Sidi [aut, cre],
   Kenton Russell [ctb] (https://github.com/timelyportfolio)
 Maintainer: Jonathan Sidi <yonicd@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-12-10 15:50:07 UTC
+Date/Publication: 2024-01-29 20:00:02 UTC
